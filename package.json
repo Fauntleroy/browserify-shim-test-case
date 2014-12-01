@@ -1,0 +1,17 @@
+{
+  "name": "browserify-shim-test-case",
+  "version": "0.0.0",
+  "description": "Test case for browserify-shim issue",
+  "browser": {
+    "jwplayer": "./scripts/vendor/jwplayer/jwplayer.js"
+  },
+  "browserify-shim": {
+    "jwplayer": "jwplayer"
+  },
+  "devDependencies": {
+    "browserify": "^6.3.3",
+    "browserify-shim": "^3.8.0",
+    "gulp": "^3.8.10",
+    "vinyl-source-stream": "^1.0.0"
+  }
+}
