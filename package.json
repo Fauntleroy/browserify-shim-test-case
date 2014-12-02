@@ -8,6 +8,9 @@
   "browserify-shim": {
     "jwplayer": "jwplayer"
   },
+  "scripts": {
+    "test": "gulp"
+  },
   "devDependencies": {
     "browserify": "^6.3.3",
     "browserify-shim": "^3.8.0",
